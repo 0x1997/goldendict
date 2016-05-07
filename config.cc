@@ -1022,7 +1022,7 @@ void saveGroup( Group const & data, QDomElement & group )
 
   name.setValue( data.name );
 
-  group.setAttributeNode( name );
+//  group.setAttributeNode( name );
 
   if ( data.icon.size() )
   {
